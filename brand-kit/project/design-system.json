@@ -1,0 +1,461 @@
+{
+ "v": 3,
+ "assetGroups": {
+  "Avatars": {
+   "files": {
+    "fjbs-avatar-blue.png": {
+     "blob": "3b28c6c6b6068616f4a7cc01883031ec",
+     "name": "fjbs-avatar-blue.png",
+     "size": 58701,
+     "type": "image/png"
+    },
+    "fjbs-avatar-midnight.png": {
+     "blob": "043371a155276c949429b22c071c5119",
+     "name": "fjbs-avatar-midnight.png",
+     "size": 58780,
+     "type": "image/png"
+    },
+    "fjbs-avatar-white.png": {
+     "blob": "5e1c4f05868958fc3cd470ea51b279f6",
+     "name": "fjbs-avatar-white.png",
+     "size": 56150,
+     "type": "image/png"
+    },
+    "fjbs-favicon-180.png": {
+     "blob": "25d338e40e47ef391bb11d356d9d81d1",
+     "name": "fjbs-favicon-180.png",
+     "size": 13078,
+     "type": "image/png"
+    },
+    "fjbs-favicon-32.png": {
+     "blob": "ec09ea64eb1fa6f48e069dae37cbf007",
+     "name": "fjbs-favicon-32.png",
+     "size": 1249,
+     "type": "image/png"
+    },
+    "fjbs-favicon-48.png": {
+     "blob": "7b101b10841e38f07c3da5c13efe7465",
+     "name": "fjbs-favicon-48.png",
+     "size": 2172,
+     "type": "image/png"
+    },
+    "fjbs-favicon-512.png": {
+     "blob": "c5964dff29cfe74caa5d2c95e83deb23",
+     "name": "fjbs-favicon-512.png",
+     "size": 43742,
+     "type": "image/png"
+    }
+   },
+   "name": "Avatars",
+   "order": [
+    "fjbs-avatar-white.png",
+    "fjbs-avatar-midnight.png",
+    "fjbs-avatar-blue.png",
+    "fjbs-favicon-32.png",
+    "fjbs-favicon-48.png",
+    "fjbs-favicon-180.png",
+    "fjbs-favicon-512.png"
+   ]
+  },
+  "Icons": {
+   "files": {
+    "arrow-right.svg": {
+     "blob": "94bbd4f2352ee39cd3a3db5f3547346e",
+     "name": "arrow-right.svg",
+     "size": 342,
+     "type": "image/svg+xml"
+    },
+    "check.svg": {
+     "blob": "34683c3958513c91235b334ab4641dce",
+     "name": "check.svg",
+     "size": 314,
+     "type": "image/svg+xml"
+    },
+    "circle-x.svg": {
+     "blob": "428209890c37d6d024a9ce34dcc381d5",
+     "name": "circle-x.svg",
+     "size": 371,
+     "type": "image/svg+xml"
+    },
+    "cloud.svg": {
+     "blob": "5fe55475562f6429b934ee538a0219ba",
+     "name": "cloud.svg",
+     "size": 350,
+     "type": "image/svg+xml"
+    },
+    "code-xml.svg": {
+     "blob": "329f9509a594242cf0dc8f4bc85cdd23",
+     "name": "code-xml.svg",
+     "size": 372,
+     "type": "image/svg+xml"
+    },
+    "database.svg": {
+     "blob": "6a89bc12eb0009221ea745460eac2bbb",
+     "name": "database.svg",
+     "size": 407,
+     "type": "image/svg+xml"
+    },
+    "globe.svg": {
+     "blob": "63afbf1e34579a388bb1f4b6425ab42f",
+     "name": "globe.svg",
+     "size": 406,
+     "type": "image/svg+xml"
+    },
+    "headset.svg": {
+     "blob": "b3e3dcc62dd7b7b134d354c92c1fbe87",
+     "name": "headset.svg",
+     "size": 475,
+     "type": "image/svg+xml"
+    },
+    "info.svg": {
+     "blob": "eb89e0ec6ff7051a3ecf68a06687aa4d",
+     "name": "info.svg",
+     "size": 368,
+     "type": "image/svg+xml"
+    },
+    "mail.svg": {
+     "blob": "5bf0e5bcc0c5c32d85f34bedca0bb440",
+     "name": "mail.svg",
+     "size": 392,
+     "type": "image/svg+xml"
+    },
+    "map-pin.svg": {
+     "blob": "8e9699c0c9aa2d1d50475814208133e5",
+     "name": "map-pin.svg",
+     "size": 436,
+     "type": "image/svg+xml"
+    },
+    "network.svg": {
+     "blob": "dc9e5d4f7287cd0766f86700d4455bc3",
+     "name": "network.svg",
+     "size": 522,
+     "type": "image/svg+xml"
+    },
+    "phone.svg": {
+     "blob": "e1b0f65847f4e458587b6849559ac53f",
+     "name": "phone.svg",
+     "size": 584,
+     "type": "image/svg+xml"
+    },
+    "server.svg": {
+     "blob": "b6f5446fff4825e7711941c6741bbaab",
+     "name": "server.svg",
+     "size": 489,
+     "type": "image/svg+xml"
+    },
+    "shield-check.svg": {
+     "blob": "806a1fc4a2d97e5538653b438a55cdaa",
+     "name": "shield-check.svg",
+     "size": 497,
+     "type": "image/svg+xml"
+    },
+    "smartphone.svg": {
+     "blob": "4cd8f1515fde5f140388b8df569887ae",
+     "name": "smartphone.svg",
+     "size": 374,
+     "type": "image/svg+xml"
+    },
+    "triangle-alert.svg": {
+     "blob": "7019eda4d40c8376c3eaaff007ad91d3",
+     "name": "triangle-alert.svg",
+     "size": 429,
+     "type": "image/svg+xml"
+    },
+    "wrench.svg": {
+     "blob": "a4dc1d54ddc8d8aabe8f7a205b52e974",
+     "name": "wrench.svg",
+     "size": 452,
+     "type": "image/svg+xml"
+    }
+   },
+   "name": "Icons",
+   "order": [
+    "code-xml.svg",
+    "globe.svg",
+    "shield-check.svg",
+    "cloud.svg",
+    "server.svg",
+    "smartphone.svg",
+    "database.svg",
+    "network.svg",
+    "headset.svg",
+    "wrench.svg",
+    "arrow-right.svg",
+    "check.svg",
+    "triangle-alert.svg",
+    "info.svg",
+    "circle-x.svg",
+    "mail.svg",
+    "phone.svg",
+    "map-pin.svg"
+   ],
+   "tile": "xs"
+  },
+  "Logos": {
+   "files": {
+    "fjbs-logo-mono-ink.png": {
+     "blob": "423098c75aaba6ced5daac32cac9d8be",
+     "name": "fjbs-logo-mono-ink.png",
+     "size": 144707,
+     "type": "image/png"
+    },
+    "fjbs-logo-mono-ink.svg": {
+     "blob": "bebb1068ceff623b8a839018331b4297",
+     "name": "fjbs-logo-mono-ink.svg",
+     "size": 89767,
+     "type": "image/svg+xml"
+    },
+    "fjbs-logo-mono-white.png": {
+     "blob": "ce9f3ca9da747459f7580386aa8f77a1",
+     "name": "fjbs-logo-mono-white.png",
+     "size": 111276,
+     "type": "image/png"
+    },
+    "fjbs-logo-mono-white.svg": {
+     "blob": "b535ad58a7ac9fb241742b0dbc139879",
+     "name": "fjbs-logo-mono-white.svg",
+     "size": 89767,
+     "type": "image/svg+xml"
+    },
+    "fjbs-logo-on-blue.png": {
+     "blob": "e7b5f9b9f1cd8e97d7fe5502ee71f8ff",
+     "name": "fjbs-logo-on-blue.png",
+     "size": 116931,
+     "type": "image/png"
+    },
+    "fjbs-logo-on-blue.svg": {
+     "blob": "0e2ed7d7ff5f0fbbdadbd09ba0809e2c",
+     "name": "fjbs-logo-on-blue.svg",
+     "size": 89767,
+     "type": "image/svg+xml"
+    },
+    "fjbs-logo-on-dark.png": {
+     "blob": "7b6d7ebfeda64ec04f104eaf3cf15e88",
+     "name": "fjbs-logo-on-dark.png",
+     "size": 131860,
+     "type": "image/png"
+    },
+    "fjbs-logo-on-dark.svg": {
+     "blob": "0d4883757a6f6fafe75408320353b74c",
+     "name": "fjbs-logo-on-dark.svg",
+     "size": 89767,
+     "type": "image/svg+xml"
+    },
+    "fjbs-logo-primary.png": {
+     "blob": "5bcd5f8e953aee8463adf98c5fa93754",
+     "name": "fjbs-logo-primary.png",
+     "size": 130948,
+     "type": "image/png"
+    },
+    "fjbs-logo-primary.svg": {
+     "blob": "a5c841ba0bd6b782ef0bcbcf67856f99",
+     "name": "fjbs-logo-primary.svg",
+     "size": 89767,
+     "type": "image/svg+xml"
+    },
+    "fjbs-mark-mono-ink.png": {
+     "blob": "739869fb80618677d2985c646bd51714",
+     "name": "fjbs-mark-mono-ink.png",
+     "size": 106218,
+     "type": "image/png"
+    },
+    "fjbs-mark-mono-ink.svg": {
+     "blob": "cf425f520b87c2ebb9d80bce50e036db",
+     "name": "fjbs-mark-mono-ink.svg",
+     "size": 47347,
+     "type": "image/svg+xml"
+    },
+    "fjbs-mark-mono-white.png": {
+     "blob": "1324660a8ddebc86e7dda589397e7a53",
+     "name": "fjbs-mark-mono-white.png",
+     "size": 82141,
+     "type": "image/png"
+    },
+    "fjbs-mark-mono-white.svg": {
+     "blob": "d59931c68b0b161da4b02204b66de9fc",
+     "name": "fjbs-mark-mono-white.svg",
+     "size": 47347,
+     "type": "image/svg+xml"
+    },
+    "fjbs-mark-on-blue.png": {
+     "blob": "011e5682840ce0b772f7fc389ed01135",
+     "name": "fjbs-mark-on-blue.png",
+     "size": 85075,
+     "type": "image/png"
+    },
+    "fjbs-mark-on-blue.svg": {
+     "blob": "52b859d96aed2d6bdad24c3cfe413b07",
+     "name": "fjbs-mark-on-blue.svg",
+     "size": 47347,
+     "type": "image/svg+xml"
+    },
+    "fjbs-mark-on-dark.png": {
+     "blob": "4048c9d9e6a20bd740a22f065f59a46b",
+     "name": "fjbs-mark-on-dark.png",
+     "size": 97281,
+     "type": "image/png"
+    },
+    "fjbs-mark-on-dark.svg": {
+     "blob": "5be07d505c9a7adf28222b164dc80a74",
+     "name": "fjbs-mark-on-dark.svg",
+     "size": 47347,
+     "type": "image/svg+xml"
+    },
+    "fjbs-mark-primary.png": {
+     "blob": "87d93e09625500730c354a195927f199",
+     "name": "fjbs-mark-primary.png",
+     "size": 96096,
+     "type": "image/png"
+    },
+    "fjbs-mark-primary.svg": {
+     "blob": "de0afcbd2ee5473559e098bcab7dc371",
+     "name": "fjbs-mark-primary.svg",
+     "size": 47347,
+     "type": "image/svg+xml"
+    },
+    "fjbs-wordmark-mono-ink.png": {
+     "blob": "1cc8ae50c826d7860f3192adba34aedc",
+     "name": "fjbs-wordmark-mono-ink.png",
+     "size": 82080,
+     "type": "image/png"
+    },
+    "fjbs-wordmark-mono-ink.svg": {
+     "blob": "117411b230faeae9a095a33f4a155361",
+     "name": "fjbs-wordmark-mono-ink.svg",
+     "size": 42580,
+     "type": "image/svg+xml"
+    },
+    "fjbs-wordmark-mono-white.png": {
+     "blob": "e8bb8a774308548cfd463e39ca334a71",
+     "name": "fjbs-wordmark-mono-white.png",
+     "size": 63198,
+     "type": "image/png"
+    },
+    "fjbs-wordmark-mono-white.svg": {
+     "blob": "7ecc8755b7bafd314e33fc282025b8fb",
+     "name": "fjbs-wordmark-mono-white.svg",
+     "size": 42580,
+     "type": "image/svg+xml"
+    },
+    "fjbs-wordmark-on-blue.png": {
+     "blob": "0e877a5c56588140988c8d0e59569de5",
+     "name": "fjbs-wordmark-on-blue.png",
+     "size": 67003,
+     "type": "image/png"
+    },
+    "fjbs-wordmark-on-blue.svg": {
+     "blob": "fd285df76a51648ffaa7fcabb78ae0ad",
+     "name": "fjbs-wordmark-on-blue.svg",
+     "size": 42580,
+     "type": "image/svg+xml"
+    },
+    "fjbs-wordmark-on-dark.png": {
+     "blob": "562c5a0d6ebe5b495a8efb44e44fa041",
+     "name": "fjbs-wordmark-on-dark.png",
+     "size": 74362,
+     "type": "image/png"
+    },
+    "fjbs-wordmark-on-dark.svg": {
+     "blob": "ceb82dd191b4b9ab42b397e9b1c969f9",
+     "name": "fjbs-wordmark-on-dark.svg",
+     "size": 42580,
+     "type": "image/svg+xml"
+    },
+    "fjbs-wordmark-primary.png": {
+     "blob": "d20eb66bd8da260612e9fdab1a72d5c0",
+     "name": "fjbs-wordmark-primary.png",
+     "size": 74081,
+     "type": "image/png"
+    },
+    "fjbs-wordmark-primary.svg": {
+     "blob": "a2080bb2a5850e686b5b8b9e45aa289c",
+     "name": "fjbs-wordmark-primary.svg",
+     "size": 42580,
+     "type": "image/svg+xml"
+    }
+   },
+   "name": "Logos",
+   "order": [
+    "fjbs-logo-primary.svg",
+    "fjbs-logo-on-dark.svg",
+    "fjbs-logo-on-blue.svg",
+    "fjbs-logo-mono-ink.svg",
+    "fjbs-logo-mono-white.svg",
+    "fjbs-mark-primary.svg",
+    "fjbs-mark-on-dark.svg",
+    "fjbs-mark-on-blue.svg",
+    "fjbs-mark-mono-ink.svg",
+    "fjbs-mark-mono-white.svg",
+    "fjbs-wordmark-primary.svg",
+    "fjbs-wordmark-on-dark.svg",
+    "fjbs-wordmark-on-blue.svg",
+    "fjbs-wordmark-mono-ink.svg",
+    "fjbs-wordmark-mono-white.svg",
+    "fjbs-logo-primary.png",
+    "fjbs-logo-on-dark.png",
+    "fjbs-logo-on-blue.png",
+    "fjbs-logo-mono-ink.png",
+    "fjbs-logo-mono-white.png",
+    "fjbs-mark-primary.png",
+    "fjbs-mark-on-dark.png",
+    "fjbs-mark-on-blue.png",
+    "fjbs-mark-mono-ink.png",
+    "fjbs-mark-mono-white.png",
+    "fjbs-wordmark-primary.png",
+    "fjbs-wordmark-on-dark.png",
+    "fjbs-wordmark-on-blue.png",
+    "fjbs-wordmark-mono-ink.png",
+    "fjbs-wordmark-mono-white.png"
+   ],
+   "tile": "l"
+  },
+  "Mockups": {
+   "files": {
+    "fjbs-mockup-dark.jpg": {
+     "blob": "292c269020595ed965030f7558d429bf",
+     "name": "fjbs-mockup-dark.jpg",
+     "size": 114048,
+     "type": "image/jpeg"
+    },
+    "fjbs-mockup-wood.jpg": {
+     "blob": "43a1688cacc68eba9e6d859197e9724d",
+     "name": "fjbs-mockup-wood.jpg",
+     "size": 298761,
+     "type": "image/jpeg"
+    }
+   },
+   "name": "Mockups",
+   "order": [
+    "fjbs-mockup-wood.jpg",
+    "fjbs-mockup-dark.jpg"
+   ],
+   "tile": "l"
+  }
+ },
+ "blobs": {},
+ "createdOnFiles": {
+  "at": "2026-11-04T08:03:04Z",
+  "v": 1
+ },
+ "docs": {
+  "readme": "project/README.md",
+  "sections": []
+ },
+ "groups": [
+  "Logos",
+  "Avatars",
+  "Mockups",
+  "Icons"
+ ],
+ "lastChange": {
+  "by": "Claude",
+  "at": "2026-11-05T09:15:00Z",
+  "via": "Claude Code",
+  "note": "Added company email."
+ },
+ "layout": "files",
+ "libraries": [],
+ "namespace": "FJBs",
+ "sections": {},
+ "title": "FJB's Softtech"
+}

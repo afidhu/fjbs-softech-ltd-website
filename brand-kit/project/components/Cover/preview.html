@@ -1,0 +1,43 @@
+<!-- @dsCard height=300 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>FJB's Softtech</title>
+<style>
+ html,body{margin:0;height:100%}
+ body{background:var(--surface);color:var(--ink);font-family:var(--font-sans);overflow:hidden}
+ .cover{position:relative;height:300px;overflow:hidden}
+ .art{position:absolute;top:0;left:480px;width:480px;height:300px}
+ .art svg{display:block;width:480px;height:300px}
+ .blue{fill:var(--fjb-blue)} .orange{fill:var(--fjb-orange)} .sky{fill:var(--sky)}
+ .blk{rx:var(--radius-lg)}
+ .tile{fill:var(--sky);rx:var(--radius-lg)}
+ .words{position:absolute;left:var(--space-6);bottom:var(--space-6);max-width:440px}
+ .name{margin:0;font-family:var(--font-display);font-size:84px;line-height:.95;font-weight:800;letter-spacing:-.03em;color:var(--ink)}
+ .tag{margin:var(--space-3) 0 0 3px;font-size:14px;line-height:20px;color:var(--ink-muted)}
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 300" width="480" height="300">
+<!--
+  blocks      fjb-blue 372x300 bled off top, right and bottom (the main logo ink) · fjb-orange 96x192 · sky 96x96, about 40% of 960x300
+  arrangement one tall blue slab with two satellites stacked in a space-3 gutter on its left, bottoms on the edge
+  pattern     geometric tiles row: the rounded tiles of the logo's globe, widths foreshortening leftward as they do on the sphere
+  scales      tile height 52, gap space-2, corners radius-lg, merged two-wide where the globe tiles widen
+-->
+<rect class="sky blk" x="0" y="0" width="96" height="96"/>
+<rect class="orange blk" x="0" y="108" width="96" height="192"/>
+<rect class="blue" x="108" y="0" width="372" height="300"/>
+<rect class="tile" x="148" y="4" width="28" height="52"/><rect class="tile" x="184" y="4" width="36" height="52"/><rect class="tile" x="228" y="4" width="44" height="52"/><rect class="tile" x="280" y="4" width="52" height="52"/><rect class="tile" x="340" y="4" width="136" height="52"/><rect class="tile" x="148" y="64" width="28" height="52"/><rect class="tile" x="184" y="64" width="36" height="52"/><rect class="tile" x="228" y="64" width="44" height="52"/><rect class="tile" x="280" y="64" width="52" height="52"/><rect class="tile" x="340" y="64" width="60" height="52"/><rect class="tile" x="408" y="64" width="68" height="52"/><rect class="tile" x="120" y="124" width="20" height="52"/><rect class="tile" x="148" y="124" width="28" height="52"/><rect class="tile" x="184" y="124" width="88" height="52"/><rect class="tile" x="280" y="124" width="52" height="52"/><rect class="tile" x="340" y="124" width="60" height="52"/><rect class="tile" x="408" y="124" width="68" height="52"/><rect class="tile" x="148" y="184" width="28" height="52"/><rect class="tile" x="184" y="184" width="36" height="52"/><rect class="tile" x="228" y="184" width="104" height="52"/><rect class="tile" x="340" y="184" width="60" height="52"/><rect class="tile" x="408" y="184" width="68" height="52"/><rect class="tile" x="120" y="244" width="20" height="52"/><rect class="tile" x="148" y="244" width="28" height="52"/><rect class="tile" x="184" y="244" width="36" height="52"/><rect class="tile" x="228" y="244" width="44" height="52"/><rect class="tile" x="280" y="244" width="52" height="52"/><rect class="tile" x="340" y="244" width="60" height="52"/><rect class="tile" x="408" y="244" width="68" height="52"/>
+</svg>
+</div>
+<div class="words">
+<h1 class="name">FJB's<br>Softtech</h1>
+<p class="tag">Technology solutions.</p>
+</div>
+</div>
+</body>
+</html>

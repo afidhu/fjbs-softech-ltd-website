@@ -1,0 +1,43 @@
+/* FJB's Softtech: component classes. Every value comes from tokens.css. */
+.fj-on-dark{display:none}
+[data-theme="dark"] .fj-on-light{display:none}
+[data-theme="dark"] .fj-on-dark{display:inline-block}
+.fj-ic{flex:none;display:block}
+.fj-row{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3);padding:var(--space-5)}
+.fj-btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--space-2);min-height:44px;padding:0 var(--space-5);border:1px solid transparent;border-radius:var(--radius-md);font-family:var(--font-sans);font-size:14px;line-height:20px;font-weight:600;cursor:pointer;text-decoration:none;transition:background-color .15s ease}
+.fj-btn:focus-visible,.fj-input:focus-visible,.fj-link:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+.fj-btn-primary{background:var(--primary);color:var(--on-primary)}
+.fj-btn-primary:hover{background:var(--primary-hover)}
+.fj-btn-accent{background:var(--accent);color:var(--on-accent)}
+.fj-btn-accent:hover{background:var(--accent-hover)}
+.fj-btn-secondary{background:transparent;color:var(--primary);border-color:var(--primary)}
+.fj-btn-secondary:hover{background:var(--surface-raised)}
+.fj-btn-ghost{background:transparent;color:var(--ink)}
+.fj-btn-ghost:hover{background:var(--surface-raised)}
+.fj-btn[disabled]{background:var(--surface-sunken);color:var(--ink-muted);border-color:var(--border);cursor:not-allowed}
+.fj-field{display:grid;gap:var(--space-1);min-width:0}
+.fj-label{font-size:14px;line-height:20px;font-weight:600;color:var(--ink)}
+.fj-help{font-size:14px;line-height:20px;color:var(--ink-muted)}
+.fj-input{box-sizing:border-box;width:100%;min-height:44px;padding:0 var(--space-3);background:var(--surface);color:var(--ink);border:1px solid var(--border-strong);border-radius:var(--radius-md);font-family:var(--font-sans);font-size:16px}
+.fj-input::placeholder{color:var(--ink-muted)}
+.fj-input-error{border-color:var(--danger)}
+.fj-error{display:flex;gap:var(--space-1);align-items:center;font-size:14px;line-height:20px;color:var(--danger)}
+.fj-status{display:inline-flex;align-items:center;gap:var(--space-1);padding:var(--space-1) var(--space-3);border:1px solid currentColor;border-radius:var(--radius-full);font-size:14px;line-height:20px;font-weight:600;background:var(--surface)}
+.fj-status-ok{color:var(--success)}
+.fj-status-info{color:var(--primary)}
+.fj-status-warn{color:var(--warning)}
+.fj-status-bad{color:var(--danger)}
+.fj-card{display:grid;align-content:start;gap:var(--space-3);padding:var(--space-5);background:var(--surface-raised);border:1px solid var(--border);border-radius:var(--radius-lg);min-width:0}
+.fj-card-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:var(--radius-md);background:var(--primary);color:var(--on-primary)}
+.fj-card h3{margin:0;font-family:var(--font-display);font-size:18px;line-height:26px;font-weight:600;color:var(--ink)}
+.fj-card p{margin:0;font-size:16px;line-height:24px;color:var(--ink-muted)}
+.fj-link{display:inline-flex;align-items:center;gap:var(--space-1);color:var(--primary);font-size:14px;line-height:20px;font-weight:600;text-decoration:none}
+.fj-link:hover{color:var(--primary-hover);text-decoration:underline}
+.fj-nav{display:flex;align-items:center;gap:var(--space-6);padding:var(--space-2) var(--space-5);background:var(--surface);border-bottom:1px solid var(--border)}
+.fj-nav img{height:58px;width:auto}
+.fj-nav-links{display:flex;gap:var(--space-5);margin-left:auto}
+.fj-nav-links a{color:var(--ink);font-size:14px;line-height:20px;font-weight:600;text-decoration:none}
+.fj-nav-links a[aria-current]{color:var(--primary)}
+.fj-nav-links a:hover{color:var(--primary)}
+@media (max-width:640px){.fj-nav-links{display:none}.fj-nav .fj-btn{margin-left:auto}}
+@media (prefers-reduced-motion:reduce){.fj-btn{transition:none}}

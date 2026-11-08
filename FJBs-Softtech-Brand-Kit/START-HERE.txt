@@ -1,0 +1,65 @@
+FJB'S SOFTTECH LIMITED - BRAND KIT
+
+Start here. Everything for our brand is in this folder.
+
+01-Guide
+  Our brand guide. Read this first.
+  Download it from the guide page as a PDF and save it here.
+
+02-Logos
+  Full-logo    Use this most.
+  Globe        Use this when space is small.
+  Words-only   Use this when the big globe is already on the page.
+
+  Pick the file by background:
+  primary      white background
+  on-dark      dark background
+  on-blue      blue background
+  mono-ink     all dark, for one colour print and orange backgrounds
+  mono-white   all white, for one colour print
+
+  SVG  For websites and printers.
+  PNG  For Word and PowerPoint.
+
+03-Profile-pictures-and-icons
+  avatar-blue      Social media
+  avatar-midnight  Dark apps
+  avatar-white     Email
+  favicon          Website icon
+
+04-Fonts
+  Install these on your computer.
+  Sora      Headings
+  Figtree   Normal text
+  JetBrains Mono   Code
+  These fonts have basic English letters only.
+
+05-Icons
+  Blue line icons.
+
+06-Mockups
+  Pictures for proposals. Do not use them as the logo.
+
+07-Website-code
+  For our web developers: colours, fonts and styles.
+
+OUR COLOURS
+  Blue      #0060BE
+  Orange    #FF9700
+  Midnight  #101A2E
+  Sky       #4DB2FF
+  Amber     #FFB13D
+  Mist      #E6EEF7
+
+WHAT WE DO
+  Web development
+  Mobile development
+  AI automations
+
+CONTACT
+  Phone     +255 717 313 797
+  Email     frank.mhando@gmail.com
+            afidhumatata81@gmail.com
+  Location  Survey, Dar es Salaam
+  Map       https://share.google/ixl67gfYgPUl0TcWl
+

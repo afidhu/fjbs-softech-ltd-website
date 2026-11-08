@@ -1,0 +1,9 @@
+<!-- @dsCard group="Forms" height=150 subtitle="Default and error" -->
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Input</title>
+<style>body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--font-sans)}.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--space-5);padding:var(--space-5)}</style></head>
+<body>
+<form class="g" onsubmit="return false"><div class="fj-field"><label class="fj-label" for="c">Company name</label><input class="fj-input" id="c" placeholder="Your company"><span class="fj-help">As registered, if you have one.</span></div><div class="fj-field"><label class="fj-label" for="e">Work email</label><input class="fj-input fj-input-error" id="e" value="name@company" aria-invalid="true"><span class="fj-error"><svg class="fj-ic" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10" /><path d="m15 9-6 6" /><path d="m9 9 6 6" /></svg> Add the end of the address, like .com</span></div></form>
+</body>
+</html>

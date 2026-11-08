@@ -1,0 +1,12 @@
+
+echo "# fjbs-softech-ltd-website" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/afidhu/fjbs-softech-ltd-website.git
+git push -u origin main
+
+
+LINKS
+BRAND KIT =>https://claude.ai/artifact/YQrB4BWm7bbUgtTVBP4m25#readme
