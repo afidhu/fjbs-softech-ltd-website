@@ -16,8 +16,8 @@ export default function Hero() {
           <a className="btn btn-accent" href="#contact">
             Request a quote <Icon name="arrow" small />
           </a>
-          <a className="btn btn-ghost" href="#services">
-            View services
+          <a className="btn btn-ghost" href="#products">
+            See our products
           </a>
         </div>
         <p className="hero-place">

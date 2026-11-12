@@ -2,7 +2,7 @@ import { steps } from "../data";
 
 export default function Process() {
   return (
-    <section className="section section-tint" id="process">
+    <section className="section" id="process">
       <div className="wrap">
         <p className="eyebrow eyebrow-text">How we work</p>
         <h2>Four simple steps</h2>

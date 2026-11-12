@@ -1,5 +1,6 @@
 import { services } from "../data";
 import Icon from "./Icon";
+import Illustration from "./Illustration";
 
 export default function Services() {
   return (
@@ -9,19 +10,24 @@ export default function Services() {
         <h2>Our services</h2>
         <div className="cards">
           {services.map((service) => (
-            <article className="card" key={service.title}>
-              <div className="card-icon">
-                <Icon name={service.icon} />
+            <article className="card card-pic" key={service.title}>
+              <Illustration art={service.art} image={service.image} alt={service.image ? service.title : ""} />
+              <div className="card-body">
+                <div className="card-head">
+                  <div className="card-icon">
+                    <Icon name={service.icon} />
+                  </div>
+                  <h3>{service.title}</h3>
+                </div>
+                <p>{service.text}</p>
+                <ul className="ticks">
+                  {service.items.map((item) => (
+                    <li key={item}>
+                      <Icon name="check" small /> {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <h3>{service.title}</h3>
-              <p>{service.text}</p>
-              <ul className="ticks">
-                {service.items.map((item) => (
-                  <li key={item}>
-                    <Icon name="check" small /> {item}
-                  </li>
-                ))}
-              </ul>
             </article>
           ))}
         </div>

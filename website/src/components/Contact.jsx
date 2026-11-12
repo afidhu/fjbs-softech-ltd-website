@@ -17,7 +17,18 @@ export default function Contact() {
 
   const submit = (event) => {
     event.preventDefault();
-    window.location.href = buildMailto(form, company.emails);
+    window.location.href = buildMailto(
+      {
+        subject: `Website enquiry: ${form.service}`,
+        fields: [
+          ["Name", form.name],
+          ["Phone or email", form.contact],
+          ["Service", form.service],
+        ],
+        message: form.message,
+      },
+      company.emails,
+    );
     setOpened(true);
   };
 
